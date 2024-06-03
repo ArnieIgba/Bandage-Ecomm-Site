@@ -1,0 +1,68 @@
+.wrapper {
+    height: 784px;
+    display: grid;
+    place-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero_sec {
+    width:1146px;
+    height:616px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.hero_gallery1 {
+    background-image: url('../images/media_bg_cover1.png');
+    grid-row: 1 / span 2;
+}
+
+.hero_gallery2 {
+    background-image: url('../images/media_bg_cover2.png');
+   grid-column: 2 / span 2;
+}
+
+.hero_gallery3 {
+    background-image: url('../images/media_bg_cover3.png');
+}
+.hero_gallery4 {
+    background-image: url('../images/media_bg_cover4.png');
+}
+
+.hero_items {
+    margin: 20px 0px 0px 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color:#2DC071;
+    
+}
+
+.arena > h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.25em;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #252B42;
+    margin: 10px 0px 0px 10px;
+}
+
+.hero_items > h6 {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.2px;
+    text-align: left;
+    
+}
+
+.arena h6 {
+    margin: 10px 0px 0px 10px;
+}
+

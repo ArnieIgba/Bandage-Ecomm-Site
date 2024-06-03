@@ -1,0 +1,76 @@
+*{
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+.response_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5em;
+    
+}
+
+.response_item2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto auto;
+    gap: 20px;
+}
+
+.response_item2 img {
+    width: 100%;
+}
+
+.response_item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.response_item1 h3 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 2.7em;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color:#252B42;
+      margin-bottom: 1em;
+}
+
+.response_item1 > .star {
+       display: flex;
+       width: 1005;
+       margin-top: 1em;
+    }
+.response_item1 > h6 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color:  #737373;
+    margin: 20px 0px;
+}
+
+.response_item1 > p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.px;
+    text-align: center;
+}
+
+.response_item1 > p a {
+    color: #23A6F0;
+
+}
+
+.response_item1 > h6 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #252B42;
+}

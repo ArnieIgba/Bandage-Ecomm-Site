@@ -1,0 +1,61 @@
+.services_container{
+    
+    margin-bottom: 6rem;
+    
+}    
+
+.services_container > .services_title {
+     text-align: center;
+     margin: 0 auto 5em auto;
+}
+
+.serv_prod1 {
+    font-size: 1.3rem;
+    margin-top: 10.5em;
+    /* padding-left: 6em; */
+    opacity: 0.8;
+    
+}
+
+.serv_prod1 > h4 {
+    margin-bottom: 3em;
+}
+
+.serv_prod2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2em;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.serv_prod3 {
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    
+}
+
+ .services_container > .serv_pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.9em; 
+} 
+
+.serv_pics img{
+    /* margin-left: 35px; */
+}
+
+.serv_pics h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    /* text-align: center; */
+
+}

@@ -1,0 +1,31 @@
+
+.Feat_txt1 {
+    color: #737373;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.Feat_txt2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.Feat_txt3{
+    text-align: center; 
+}
+
+.feature_card_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.load {
+    display: block;
+    margin: 90px auto;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px solid#23A6F0;
+    color: #23A6F0;
+    
+
+}

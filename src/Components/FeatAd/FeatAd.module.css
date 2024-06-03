@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.FeatAd {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    gap: 50px;
+}
+
+.FeatAd_top > h6 {
+font-family: "Montserrat", sans-serif;
+font-size: 1rem;
+font-weight: 700;
+line-height: 2em;
+color:#23A6F0;
+text-align: center;
+}
+
+.FeatAd_top > h2 {
+font-family: "Montserrat", sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 3.5rem;
+letter-spacing: 0.2px;
+text-align: center;
+
+}
+
+.FeatAd_Card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;    
+}
+
+.adpic{
+    position: relative;
+}
+.FeatAd_Card_item  p{
+    top: 1rem;
+    left: 1rem;
+    background-color: red;
+    position: absolute
+}
+
+

@@ -3,7 +3,7 @@
 }
 
 .res_wrap {
-    background: url('images/resolution/background.png');
+    background: url('/images/resolution/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -15,20 +15,20 @@
 }
 
 .hero_gallery1 {
-    background-image: url('../images/media_bg_cover1.png');
+    background-image: url('/images/media_bg_cover1.png');
     grid-row: 1 / span 2;
 }
 
 .hero_gallery2 {
-    background-image: url('../images/media_bg_cover2.png');
+    background-image: url('/images/media_bg_cover2.png');
    grid-column: 2 / span 2;
 }
 
 .hero_gallery3 {
-    background-image: url('../images/media_bg_cover3.png');
+    background-image: url('/images/media_bg_cover3.png');
 }
 .hero_gallery4 {
-    background-image: url('../images/media_bg_cover4.png');
+    background-image: url('/images/media_bg_cover4.png');
 }
 
 .hero_items {

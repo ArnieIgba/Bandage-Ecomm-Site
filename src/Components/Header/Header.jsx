@@ -17,11 +17,11 @@ function Header() {
         <div className={Styles.nav_container}>
             <div className={Styles.nav_dark_wrap}>
                 <div className={Styles.nav_phone}>
-                <p><img src='../../../public/images/phone.png' alt='phone' />(225) 555-0118</p>
+                <p><img src='/images/phone.png' alt='phone' />(225) 555-0118</p>
                 
                 </div>
                 <div className={Styles.nav_mail}>
-                <p><img src='../../../public/images/mail.png' alt='phone' />michelle.rivera@example.com</p>
+                <p><img src='/images/mail.png' alt='phone' />michelle.rivera@example.com</p>
                 </div>
             </div>
             <div>
@@ -32,16 +32,16 @@ function Header() {
                   <p>Follow Us :</p>
                   </div>
                   <div>
-                  <img src='../../../public/images/ig.png' alt='phone' />
+                  <img src='/images/ig.png' alt='phone' />
                   </div>
                   <div>
-                  <img src='../../../public/images/play.png' alt='play' />
+                  <img src='/images/play.png' alt='play' />
                   </div>
                   <div>
-                  <img src='../../../public/images/fb.png' alt='fb' />
+                  <img src='/images/fb.png' alt='fb' />
                   </div>
                   <div>
-                  <img src='../../../public/images/twitx.png' alt='x' />
+                  <img src='/images/twitx.png' alt='x' />
                   </div>
             </div>
         </div>

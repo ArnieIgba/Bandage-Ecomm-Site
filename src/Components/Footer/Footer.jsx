@@ -9,9 +9,9 @@ const Footer = () => {
         <div className={Styles.footer_logo}>
             <h3>Bandage</h3>
             <div className={Styles.footer_socials}>
-                <img src="images/footer/f.png" alt="" />
-                <img src="images/footer/i.png" alt="" />
-                <img src="images/footer/x.png" alt="" />
+                <img src="/images/footer/f.png" alt="" />
+                <img src="/images/footer/i.png" alt="" />
+                <img src="/images/footer/x.png" alt="" />
             </div>
         </div>
 

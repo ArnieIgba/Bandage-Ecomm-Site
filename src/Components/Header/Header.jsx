@@ -53,7 +53,7 @@ function Header() {
           <div className={Styles.wrap}>              
                 <ul>
                     <li>Home</li>
-                    <li>About <img src="../../../public/images/darrow.png" alt="" /></li>
+                    <li>About <img src="/images/darrow.png" alt="" /></li>
                     <li>Blog</li>
                     <li>Contact</li>
                     <li>Pages</li>
@@ -62,11 +62,11 @@ function Header() {
               
                 <div className={Styles.right}>
                     <ul>
-                        <li><img src="../../../public/images/log.png" alt="log" /></li>
+                        <li><img src="/images/log.png" alt="log" /></li>
                         <li>Login / Register</li>
-                        <li><img src="../../../public/images/search.png" alt="search" /></li>
-                        <li><img src="../../../public/images/shopcart.png" alt="shopcart" /></li>
-                        <li><img src="../../../public/images/heart.png" alt="search" /></li>
+                        <li><img src="/images/search.png" alt="search" /></li>
+                        <li><img src="/images/shopcart.png" alt="shopcart" /></li>
+                        <li><img src="/images/heart.png" alt="search" /></li>
                         
                     </ul>
                 </div>              

@@ -7,6 +7,7 @@ import FeatAd from '../Components/FeatAd/FeatAd'
 import Response from '../Components/Response/Response'
 import Resolution from '../Components/Resolution/Resolution'
 import Footer from '../Components/Footer/Footer'
+import ProductDetails from './ProductDetails'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         <Response />
         <Resolution />
         <Footer />
+        <ProductDetails />
 
     </div>
   )
